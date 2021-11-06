@@ -1,0 +1,205 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(221, 227, 255);
+    color: rgb(0, 0, 46);
+}
+
+
+header{
+    background: linear-gradient(to left, rgb(159, 174, 255) ,rgb(111, 113, 247));
+    position: absolute;
+    padding-bottom: 8%;
+    padding-right: 76.5%;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+#logo{
+    position: absolute;
+    max-width: 9%;
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+a{
+    color: rgb(0, 0, 46);
+    transition: all 0.5s;
+    font-size: 150%;
+    text-decoration: none;
+}
+#home{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+#empresa{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+#servicos{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+#portifolio{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+#contato{
+    position:absolute;
+    margin-left: 85%;
+    margin-top: 3%;
+}
+a:hover{
+    -webkit-transform: scale(1.1);
+    text-shadow:0 0 1em rgb(236, 246, 255), 0 0 0.2em rgb(236, 246, 255);
+}
+
+
+#imagem_main{
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 47%;
+}
+.blocos{
+    background: linear-gradient(to left, rgb(159, 174, 255) ,rgb(111, 113, 247));
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 29);
+}
+.blocos:hover{
+    -webkit-transform: scale(1.1);
+}
+#bloco1{
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 90%;
+    padding-bottom: 7.3%;
+}
+#bloco2{
+    margin-top: 40%;
+    margin-left: 37%;
+    margin-right: 43%;
+    padding-bottom: 8%;
+}
+#bloco3{
+    margin-top: 40%;
+    margin-left: 66%;
+    margin-right: 13%;
+}
+iframe{
+    margin-top: 80%;
+    margin-left: 10%;
+    width: 77.5%;
+    height: 180px;
+    border-radius: 10px;
+    border-style: unset;
+    transition: all 0.5s;
+}
+iframe:hover{
+    -webkit-transform: scale(1.1);
+}
+@media (max-width: 1260px) {
+
+    .blocos{
+        max-width: 50%;
+    }
+    header{
+        max-height: 50%;
+        font-size: 80%;
+    }
+    iframe{
+        margin-top: 100%;
+        max-height: 50%;
+    }
+    img{
+        max-height: 50%;
+    }
+}
+@media (max-width: 960px) {
+
+    .blocos{
+        max-width: 50%;
+    }
+    header{
+        max-height: 50%;
+        font-size: 50%;
+    }
+    iframe{
+        margin-top: 115%;
+        max-height: 50%;
+    }
+    img{
+        max-height: 40%;
+    }
+}
+@media (max-width: 860px) {
+
+    .blocos{
+        max-width: 50%;
+    }
+    header{
+        max-height: 50%;
+        font-size: 70%;
+    }
+    iframe{
+        margin-top: 110%;
+        max-height: 50%;
+    }
+    img{
+        max-height: 43%;
+    }
+}
+@media (max-width: 760px) {
+    .blocos{
+        max-width: 30%;
+    }
+    header{
+        max-height: 30%;
+        font-size: 60%;
+    }
+    iframe{
+        margin-top: 130%;
+        max-height: 30%;
+    }
+    img{
+        max-height: 30%;
+    }
+    #bloco2{
+        margin-top: 40%;
+        margin-left: 40%;
+        margin-right: 43%;
+        padding-bottom: 8%;
+    }
+}
+@media (max-width: 660px) {
+    .blocos{
+        max-width: 10%;
+    }
+    header{
+        max-height: 10%;
+        font-size: 40%;
+    }
+    iframe{
+        margin-top: 150%;
+        max-height: 10%;
+    }
+    img{
+        max-height: 20%;
+    }
+}
+footer{
+    text-align: center;
+}
+.logos{
+    max-height: 40px;
+    padding-bottom: 2%;
+}
