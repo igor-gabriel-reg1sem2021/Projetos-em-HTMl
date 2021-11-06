@@ -1,0 +1,35 @@
+#formulario{
+    text-align: center;
+    background: linear-gradient(to left, rgb(141, 190, 255) ,rgb(233, 151, 206));
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: transparent;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(255, 251, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+input{
+    border: transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+input:focus,
+input:hover{
+    box-shadow: 0 3px 25px white;
+}
+h1{
+    color: rgb(0, 15, 37);
+}
+#BotaoDeEnvio{
+    background-color: linear-gradient(to left,rgb(233, 151, 206 ), rgb(141, 190, 255));
+}

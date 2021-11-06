@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <form role="form" name="criar_conta" method="POST" action="#" id="formulario">
+        <h1>Criar conta</h1>
+        <label>Nome completo: <br>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+        </label>
+        <br>
+        <label>Endereço: <br>
+            <input type="text" name="endereco" placeholder="Endereço completo">
+        </label>
+        <br>
+        <label>CEP do Endereço: <br>
+            <input type="CEP" name="CEP" pattern="\d{5}-?\d{3}" placeholder="CEP da rua">
+        </label>
+        <br>
+        <label>Número CPF: <br>
+            <input type="text" name="CPF">
+        </label>
+        <br>
+        <label>Número RG: <br>
+            <input type="text" name="RG">
+        </label>
+        <br>
+        <label>Telefone: <br>
+            <input type="tel" name="telefone">
+        </label>
+        <br>
+        <label>E-mail: <br>
+            <input type="email" name="email">
+        </label>
+        <br>
+        <label>Senha: <br>
+            <input type="password" name="senha">
+        </label>
+        <br>
+        <label>Confirmar Senha: <br>
+            <input type="password" name="confirm_senha" id="">
+        </label>
+        <br>
+        <br>
+        <input type="submit" name="enviar" id="BotaoDeEnvio">
+    </form>
+</body>
+</html>
